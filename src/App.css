@@ -1,8 +1,20 @@
+html, body, #root {
+  width: 100%; /* Ensure full width coverage */
+  height: 100%; /* Ensure full height coverage */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove default padding */
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  background-image: url('./assets/RiskBackground.jpg'); /* Update this with your image path */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw; /* Full width of the viewport */
 }
 
 .logo {
